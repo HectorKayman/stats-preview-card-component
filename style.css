@@ -1,5 +1,7 @@
+/* Importing fonts from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
 
+/* CSS custom properties (variables) defined for reusability */
 :root {
   --font-body: "Lexend Deca", sans-serif;
   --font-head: "Inter", sans-serif;
@@ -13,6 +15,7 @@
   --clr-accent: hsl(277, 64%, 61%);
 }
 
+/* Global CSS reset */
 *,
 *::before,
 *::after {
@@ -21,24 +24,28 @@
   box-sizing: border-box;
 }
 
+/* Styling for the HTML element */
 html {
   font-family: var(--font-body);
   font-size: var(--font-size);
   color: var(--clr-font-900);
 }
 
+/* CSS Flexbox utility class for centering content */
 .flex-flow {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Styling for the body element */
 body {
   background: var(--clr-bg-primary);
   height: 100svh;
   flex-direction: column;
 }
 
+/* Styling for the main container */
 .container {
   max-width: 74rem;
   margin: auto;
@@ -48,6 +55,7 @@ body {
   gap: 2rem;
 }
 
+/* Styling for the left column */
 .column-left {
   height: 100%;
   flex-direction: column;
@@ -55,15 +63,18 @@ body {
   padding: 5rem;
 }
 
+/* Styling for the main heading within the left column */
 .column-left > h1 {
   font-family: var(--font-head);
   font-size: calc(var(--font-size) * 2.25);
 }
 
+/* Styling for the <span> element within the main heading */
 .column-left > h1 > span {
   color: var(--clr-accent);
 }
 
+/* Styling for paragraph text within the left column */
 .column-left > p {
   font-family: var(--font-head);
   color: var(--clr-font-700);
@@ -71,6 +82,7 @@ body {
   line-height: calc(var(--font-size) * 1.5);
 }
 
+/* Styling for the bottom row of statistics */
 .row-bot {
   width: 100%;
   justify-content: flex-start;
@@ -78,14 +90,17 @@ body {
   padding-top: 3rem;
 }
 
+/* Styling for the statistics numbers (h2) */
 .row-bot h2 {
   font-size: calc(var(--font-size) * 1.5);
 }
 
+/* Styling for the rightmost statistic column */
 .stats-col-right h2 {
   text-transform: uppercase;
 }
 
+/* Styling for the statistic labels (span) */
 .row-bot span {
   font-size: calc(var(--font-size) * 0.8);
   letter-spacing: 0.1rem;
@@ -93,10 +108,12 @@ body {
   text-transform: uppercase;
 }
 
+/* Styling for the right column */
 .column-right {
   position: relative;
 }
 
+/* Pseudo-element to create a color overlay on the right column */
 .column-right::before {
   content: "";
   position: absolute;
@@ -110,18 +127,23 @@ body {
   mix-blend-mode: multiply;
 }
 
+/* Styling for the mobile image */
 .hero-mobile {
   display: none;
 }
-/* Styles for the footer */
+
+/* Styling for the footer */
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
+/* Styling for links within the footer */
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
+/* Media query for screens with a max width of 1075px */
 @media (max-width: 1075px) {
   .container {
     gap: 0;
@@ -135,6 +157,7 @@ body {
   }
 }
 
+/* Media query for screens with a max width of 830px */
 @media (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
@@ -160,6 +183,7 @@ body {
   }
 }
 
+/* Media query for screens with a max width of 450px */
 @media (max-width: 450px) {
   .container {
     max-width: calc(100svw - 2rem);
