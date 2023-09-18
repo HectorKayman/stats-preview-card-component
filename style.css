@@ -39,6 +39,17 @@ body {
   flex-direction: column;
 }
 
+.container {
+  margin: auto;
+  background: var(--clr-bg-secondary);
+  padding: 3rem;
+}
+
+.column-left {
+  flex-direction: column;
+  gap: 3rem;
+}
+
 /* Styles for the footer */
 .attribution {
   font-size: 11px;
