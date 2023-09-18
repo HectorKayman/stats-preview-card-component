@@ -40,7 +40,7 @@ body {
 }
 
 .container {
-  width: 72rem;
+  width: 74rem;
   margin: auto;
   background: var(--clr-bg-secondary);
   overflow: hidden;
@@ -65,7 +65,9 @@ body {
 }
 
 .column-left > p {
+  font-family: var(--font-head);
   color: var(--clr-font-700);
+  font-weight: 300;
   line-height: calc(var(--font-size) * 1.5);
 }
 
@@ -86,6 +88,7 @@ body {
 
 .row-bot span {
   font-size: calc(var(--font-size) * 0.8);
+  letter-spacing: 0.1rem;
   color: var(--clr-font-400);
   text-transform: uppercase;
 }
