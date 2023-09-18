@@ -45,16 +45,19 @@ body {
   background: var(--clr-bg-secondary);
   overflow: hidden;
   border-radius: 0.5rem;
+  gap: 2rem;
 }
 
 .column-left {
+  height: 100%;
   flex-direction: column;
-  gap: 3rem;
+  justify-content: space-between;
+  padding: 4rem;
 }
 
 .column-left > h1 {
   font-family: var(--font-head);
-  font-size: calc(var(--font-size) * 3);
+  font-size: calc(var(--font-size) * 2.25);
 }
 
 .column-left > h1 > span {
@@ -72,7 +75,7 @@ body {
 }
 
 .row-bot h2 {
-  font-size: calc(var(--font-size) * 2);
+  font-size: calc(var(--font-size) * 1.75);
 }
 
 .row-bot span {
