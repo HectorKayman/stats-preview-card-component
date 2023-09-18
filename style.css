@@ -147,6 +147,14 @@ body {
     height: auto;
   }
 
+  .column-right img {
+    display: none;
+  }
+
+  .hero-mobile {
+    display: block;
+  }
+
   .attribution {
     display: none;
   }
