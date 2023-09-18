@@ -70,6 +70,15 @@ body {
   padding: 2rem 2rem 0 2rem;
 }
 
+.row-bot h2 {
+  font-size: calc(var(--font-size) * 2);
+}
+
+.row-bot span {
+  color: var(--clr-font-400);
+  text-transform: uppercase;
+}
+
 /* Styles for the footer */
 .attribution {
   font-size: 11px;
