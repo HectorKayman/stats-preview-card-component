@@ -21,6 +21,16 @@
   box-sizing: border-box;
 }
 
+html {
+  font-family: var(--font-body);
+  font-size: var(--font-size);
+  color: var(--clr-font-900);
+}
+
+body {
+  background: var(--clr-bg-primary);
+}
+
 /* Styles for the footer */
 .attribution {
   font-size: 11px;
