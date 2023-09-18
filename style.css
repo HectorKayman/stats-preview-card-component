@@ -27,15 +27,16 @@ html {
   color: var(--clr-font-900);
 }
 
-body {
-  background: var(--clr-bg-primary);
-  height: 100svh;
-}
-
 .flex-flow {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+body {
+  background: var(--clr-bg-primary);
+  height: 100svh;
+  flex-direction: column;
 }
 
 /* Styles for the footer */
