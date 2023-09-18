@@ -52,7 +52,7 @@ body {
   height: 100%;
   flex-direction: column;
   justify-content: space-between;
-  padding: 4rem;
+  padding: 5rem;
 }
 
 .column-left > h1 {
@@ -71,7 +71,9 @@ body {
 
 .row-bot {
   width: 100%;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 4rem;
+  padding-top: 3rem;
 }
 
 .row-bot h2 {
