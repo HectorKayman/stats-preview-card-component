@@ -50,6 +50,14 @@ body {
   gap: 3rem;
 }
 
+.column-left > h1 {
+  font-family: var(--font-head);
+}
+
+.column-left > h1 > span {
+  color: var(--clr-accent);
+}
+
 /* Styles for the footer */
 .attribution {
   font-size: 11px;
