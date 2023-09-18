@@ -72,7 +72,7 @@ body {
 }
 
 .row-bot {
-  max-width: 100%;
+  width: 100%;
   justify-content: flex-start;
   gap: 4rem;
   padding-top: 3rem;
@@ -116,4 +116,34 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1075px) {
+  .container {
+    gap: 0;
+  }
+  .column-left {
+    width: 50%;
+    padding: 2rem;
+  }
+  .column-right img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+    width: min-content;
+    margin: 1rem;
+  }
+
+  .column-left {
+    width: 100%;
+    height: auto;
+  }
+
+  .attribution {
+    display: none;
+  }
 }
