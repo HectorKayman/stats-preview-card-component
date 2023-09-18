@@ -64,6 +64,12 @@ body {
   line-height: calc(var(--font-size) * 1.5);
 }
 
+.row-bot {
+  width: 100%;
+  justify-content: space-between;
+  padding: 2rem 2rem 0 2rem;
+}
+
 /* Styles for the footer */
 .attribution {
   font-size: 11px;
