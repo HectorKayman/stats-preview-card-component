@@ -52,10 +52,16 @@ body {
 
 .column-left > h1 {
   font-family: var(--font-head);
+  font-size: calc(var(--font-size) * 3);
 }
 
 .column-left > h1 > span {
   color: var(--clr-accent);
+}
+
+.column-left > p {
+  color: var(--clr-font-700);
+  line-height: calc(var(--font-size) * 1.5);
 }
 
 /* Styles for the footer */
