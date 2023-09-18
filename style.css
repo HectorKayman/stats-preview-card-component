@@ -29,6 +29,13 @@ html {
 
 body {
   background: var(--clr-bg-primary);
+  height: 100svh;
+}
+
+.flex-flow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Styles for the footer */
