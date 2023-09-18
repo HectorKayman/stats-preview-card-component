@@ -109,6 +109,10 @@ body {
   pointer-events: none;
   mix-blend-mode: multiply;
 }
+
+.hero-mobile {
+  display: none;
+}
 /* Styles for the footer */
 .attribution {
   font-size: 11px;
